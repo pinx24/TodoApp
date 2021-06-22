@@ -39,10 +39,10 @@ class MainActivity : AppCompatActivity() {
         }
     }else
 
-        Toast.makeText(applicationContext, "Incorrect password", Toast.LENGTH_SHORT).show()
+        Toast.makeText(String = applicationContext, String = "Incorrect password", Toast.LENGTH_SHORT).show()
     }
 
     private fun isValidCredentials(username: String, password: String): Boolean {
-        return (username == validUserName && password == validPassWord)return true
+        return (password == password)return true
     }
 }
